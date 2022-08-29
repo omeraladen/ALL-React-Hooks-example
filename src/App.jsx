@@ -1,5 +1,6 @@
 import React  from "react";
-import UseState from "./Hooks/UseState";
+import UseReducer from "./Hooks/UseReducer";
+//import UseState from "./Hooks/UseState";
 
 
 
@@ -8,7 +9,8 @@ const App = () => {
   
   return (
     <div>
-      <UseState/>
+      {/* <UseState/> */}
+      <UseReducer/>
     </div>
   )
 }
