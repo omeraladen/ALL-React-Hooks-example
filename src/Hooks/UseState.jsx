@@ -1,6 +1,15 @@
 
 import React, { useState } from 'react';
 
+/*
+?1 When We Need useState();
+
+    ?1 (1) when you need to Returns a stateful value, and a function to update it
+    ?1 (2) the first value returned by useState will always be the most recent state after applying updates.
+
+
+*/
+
 //  example (1) simple increment number
 
 const UseState = () => {
