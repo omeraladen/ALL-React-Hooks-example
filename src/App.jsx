@@ -6,8 +6,9 @@ import React  from "react";
 
 
 //life Cycle Method
-import ComponentDidMount from "./Life Cycle Methods/ComponentDidMount";
-
+// import ComponentDidMount from "./Life Cycle Methods/ComponentDidMount";
+// import ComponentWillMount from "./Life Cycle Methods/componentWillMount";
+import ComponentWillUnmount from "./Life Cycle Methods/ComponentWillUnmount";
 
 const App = () => {
   
@@ -22,7 +23,9 @@ const App = () => {
 
    {/* Life Cycle Methods  */}
 
-      <ComponentDidMount/>
+      {/* <ComponentDidMount/> */}
+      {/* <ComponentWillMount/> */}
+      <ComponentWillUnmount/>
     </div>
   )
 }

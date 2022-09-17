@@ -1,6 +1,6 @@
 import React from "react";
 
-export default class Counter extends React.Component {
+export default class Massage extends React.Component {
     constructor() {
         super();
 
