@@ -25,7 +25,7 @@ export default class ComponentWillMount extends React.Component {
 
             <div className="counter">
               
-               <h1>{this.state.message.title}</h1>
+               <h1>{this.state.message.title || "Loading..."} </h1>
 
             </div>
         )
